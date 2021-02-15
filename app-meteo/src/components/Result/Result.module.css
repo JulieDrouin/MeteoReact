@@ -1,0 +1,45 @@
+* {
+  font-family: "Abel";
+  font-style: normal;
+}
+
+.blockResult {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  height: 100vh;
+}
+
+.result {
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.Button {
+  display: block;
+  margin: 10px auto;
+  padding: 0.5rem;
+  font-size: 1em;
+  background: khaki;
+  border: 2px solid khaki;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Button:hover {
+  border-color: rgb(94, 86, 14);
+}
+.Button:active {
+  color:rgb(229, 226, 190);
+  border-color: khaki;
+}
+
+.Button:focus {
+  outline: 0;
+}
